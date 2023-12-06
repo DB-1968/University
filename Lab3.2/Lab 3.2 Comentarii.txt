@@ -1,0 +1,9 @@
+1. Cand incercam sa compilez ambele file-uri, primeam eroare din cauza ca functia hello in file-uri este declarata fara definitie
+
+2.Dupa ce am definit functia hello in f.cpp, am incercat sa compilez main.cpp am primit eroare din cauza ca functia hello este declarata in main.cpp, dar nu este definita
+
+3.Dupa ce am adaugat static la functia hello din f.cpp, am primit eroare la compilare din cauza ca de la modificatorul static compilatorul nu vede functia hello, nici din f.cpp, nici din main.cpp
+
+4.Am copiat modificatorul static la functia hello din main.cpp si am compilat. S-a compilat din cauza ca static limiteaza vizibilitatea functiei in afara fisierului curent.
+
+5. In a.exe se va compila o copie de fuctie hello din cauza ca, in fisierul f.cpp functia hello are modificator de acces static.
